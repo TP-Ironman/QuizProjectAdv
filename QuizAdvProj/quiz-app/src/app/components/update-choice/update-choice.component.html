@@ -1,0 +1,21 @@
+<html>
+<th> Update Choices</th>
+
+
+<div>
+  
+  <div><label>Enter question number:</label>
+     <input [(ngModel)]="question.id" type="text"/></div>
+  <div><label>Enter choice option - (a/b/c/d):</label>
+     <input [(ngModel)]="choice.chOpid" type="text"/></div>
+  <div><label>ENter choice content:</label>
+     <input [(ngModel)]="choice.choice" type="text"/></div>
+  <div><label>Enter if choice is correct - (Y/N):</label>
+     <input [(ngModel)]="choice.isCorrect" type="text"/></div>
+  
+  <button (click)="updateChoices()" >Update</button>
+
+
+</div>
+
+</html>

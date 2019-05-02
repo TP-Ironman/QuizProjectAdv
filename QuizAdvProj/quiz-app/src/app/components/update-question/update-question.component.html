@@ -1,0 +1,14 @@
+<html>
+<th> Updating the questions</th>
+
+
+<div>
+  
+  <div><label>Enter the question number to update</label> <input [(ngModel)]="question.id" type="text"/></div>
+  <div><label>Password:</label> <input [(ngModel)]="question.questionLabel" type="text"/></div>
+    <div><label>Enter question's difficulty level:</label> 
+    <input [(ngModel)]="question.difficulty" type="text"/></div>
+  <button (click)="updateQn()" >Update</button>
+
+
+</div>

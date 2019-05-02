@@ -1,0 +1,21 @@
+<div ng-repeat="question in questions">
+    <h3>Questions And Answers</h3>
+    <div>
+        <h4>{{'What is java?'}}</h4>
+        <div>
+           <label id="{{'A'}}" ng-click="onSelect(id);">
+               <input id="{{'choiceA'}}" type="checkbox" ng-model="question.Selected" /> {{'A Programming Language'}}
+            </label>
+            <label id="{{'B'}}" ng-click="onSelect(id);">
+                    <input id="{{'choiceB'}}" type="checkbox" ng-model="question.Selected" /> {{'A game'}}
+                 </label>
+            <label id="{{'C'}}" ng-click="onSelect(id);">
+                <input id="{{'choiceC'}}" type="checkbox" ng-model="question.Selected" /> {{'A puzzle'}}
+            </label>
+            <label id="{{'D'}}" ng-click="onSelect(id);">
+                <input id="{{'choiceD'}}" type="checkbox" ng-model="question.Selected" /> {{'No idea'}}
+            </label>
+
+        </div>
+    </div>
+</div>

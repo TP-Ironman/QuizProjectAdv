@@ -1,0 +1,6 @@
+com\epita\fr\quiz\dao\QuestionsRefDAO.class
+com\epita\fr\quiz\datamodel\StudentDetails.class
+com\epita\fr\quiz\datamodel\QuestionsPosed.class
+com\epita\fr\quiz\dao\CDAO.class
+com\epita\fr\quiz\datamodel\ChoicesProvided.class
+com\epita\fr\quiz\dao\QuizServiceClass.class

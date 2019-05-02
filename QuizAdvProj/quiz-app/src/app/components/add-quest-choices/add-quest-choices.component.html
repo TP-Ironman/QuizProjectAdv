@@ -1,0 +1,34 @@
+<html>
+<th> Please enter the questions and choices</th>
+
+
+<div>
+  
+  <div><label>Enter question number:</label>
+     <input [(ngModel)]="question.id" type="text"/></div>
+  <div><label>Enter question:</label> 
+     <input [(ngModel)]="question.questionlabel" type="text"/></div>
+  <div><label>Enter question's difficulty level:</label> 
+    <input [(ngModel)]="question.difficulty" type="text"/></div>
+  <div><label>Enter choice-a:</label>
+     <input [(ngModel)]="question.choiceA" type="text"/></div>
+  <div><label>Is the option correct choice:</label>
+     <input [(ngModel)]="question.choiceAisC" type="text"/></div>
+  <div><label>Enter choice-b:</label>
+     <input [(ngModel)]="question.choiceB" type="text"/></div>
+  <div><label>Is the option correct choice::</label>
+     <input [(ngModel)]="question.choiceBisC" type="text"/></div>
+  <div><label>Enter choice-c:</label>
+     <input [(ngModel)]="question.choiceC" type="text"/></div>
+  <div><label>Is the option correct choice::</label>
+     <input [(ngModel)]="question.choiceCisC" type="text"/></div>
+  <div><label>Enter choice-d:</label>
+     <input [(ngModel)]="question.choiceD" type="text"/></div>
+  <div><label>Is the option correct choice::</label>
+     <input [(ngModel)]="question.choiceDisC" type="text"/></div>
+  <button (click)="addQnsChoices()" >Add</button>
+
+
+</div>
+
+</html>

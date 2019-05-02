@@ -1,0 +1,29 @@
+<html>
+<th> Welcome Admin</th>
+<td> Display Page</td>
+
+
+<div>
+  
+ <!-- <div><label>Please enter the question No:</label> <input [(ngModel)]="admin.id" type="text"/></div>
+  <div><label>Password:</label> <input [(ngModel)]="admin.paswd" type="text"/></div>
+  <button (click)="login()" >Save</button> -->
+
+  <table>
+    <thead>
+      <th>id</th>
+      <th>Label</th>
+      <th>Answer</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let question of questions">
+        <td>{{question.id}}</td>
+        <td>{{question.questionLabel}}</td>
+        <td>{{question.choice}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+</div>
+</html>

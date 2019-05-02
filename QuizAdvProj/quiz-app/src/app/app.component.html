@@ -1,0 +1,23 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<h1>Welcome to my quiz</h1>
+<h2>Please let us know if you are the adminor student</h2>
+
+<table>
+  <h3>If you are the admin please click here</h3>
+   <h4><a routerLink="/admin" routerLinkActive="active">Admin</a></h4>
+   <!-- <button (click)="admin()" >Admin</button>-->
+</table>
+<router-outlet></router-outlet>
+
+
+  <label>If you are the student please click here</label>
+  <h4><a routerLink="/quiz" routerLinkActive="active">Student</a></h4>
+  <router-outlet></router-outlet>
+<!--<div>
+  <app-quiz-form (refresh)="refreshList()"></app-quiz-form>
+</div>
+<div>
+  <app-quiz-list [questions]="list"></app-quiz-list>
+</div>
+-->
